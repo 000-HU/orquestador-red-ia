@@ -1,0 +1,30 @@
+import twitter4j.*;
+import java.util.List;
+
+public class BuscadorCercano {
+    public static void main(String[] args) {
+        // Configuración de credenciales (Requiere API Key de X)
+        Twitter twitter = TwitterFactory.getSingleton();
+
+        // 1. Definimos la ubicación (San Buenaventura, Toluca) y el radio de 5km
+        GeoLocation ubicacion = new GeoLocation(19.264017, -99.650860);
+        double radio = 5.0;
+        Query.Unit unidad = Query.KILOMETERS;
+
+        // 2. Creamos la consulta con el "gusto" o interés (ejemplo: 'tech')
+        Query query = new Query("tech"); 
+        query.setGeoCode(ubicacion, radio, unidad);
+
+        try {
+            QueryResult result = twitter.search(query);
+            System.out.println("Gente hablando de tech cerca de mí:");
+            
+            for (Status status : result.getTweets()) {
+                System.out.println("@" + status.getUser().getScreenName() + ": " + status.getText());
+            }
+        } catch (TwitterException te) {
+            te.printStackTrace();
+            System.out.println("Error: Asegúrate de tener permisos de la API.");
+        }
+    }
+}

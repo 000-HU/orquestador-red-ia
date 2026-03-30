@@ -1,2 +1,18 @@
-{"timestamp":"2026-02-28T18:00:51.095Z","latency":21,"route":"Ruta Encontrada: INICIO -> [0] -> [1] -> [4] -> [5] | Latencia Total: 21ms"}
-{"timestamp":"2026-02-28T18:08:03.054Z","latency":21,"route":"Ruta Encontrada: INICIO -> [0] -> [1] -> [4] -> [5] | Latencia Total: 21ms"}
+
+--- INICIANDO PROTOCOLO DE ANALISIS DE RED ---
+Origen: localhost (127.0.0.1) | Destino: Nodo Final [5]
+Ruta Encontrada: INICIO -> [0] -> [1] -> [3] -> [2] -> [4] -> [5] | Latencia Total: 114ms
+Ruta Encontrada: INICIO -> [0] -> [1] -> [3] -> [4] -> [5] | Latencia Total: 81ms
+Ruta Encontrada: INICIO -> [0] -> [1] -> [3] -> [5] | Latencia Total: 62ms
+Ruta Encontrada: INICIO -> [0] -> [1] -> [4] -> [2] -> [3] -> [5] | Latencia Total: 75ms
+Ruta Encontrada: INICIO -> [0] -> [1] -> [4] -> [3] -> [5] | Latencia Total: 42ms
+Ruta Encontrada: INICIO -> [0] -> [1] -> [4] -> [5] | Latencia Total: 21ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [3] -> [1] -> [4] -> [5] | Latencia Total: 101ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [3] -> [4] -> [5] | Latencia Total: 61ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [3] -> [5] | Latencia Total: 42ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [4] -> [1] -> [3] -> [5] | Latencia Total: 115ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [4] -> [3] -> [5] | Latencia Total: 75ms
+Ruta Encontrada: INICIO -> [0] -> [2] -> [4] -> [5] | Latencia Total: 54ms
+
+Optimización completada en: 41860 microsegundos.
+Análisis de topología finalizado.

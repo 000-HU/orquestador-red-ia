@@ -4,7 +4,7 @@ const oracledb = require('oracledb');
 const connectionConfig = {
   user: "USUARIO_CONTROL_ESCOLAR", // Cambia por el real
   password: "PASSWORD_DB",         // Cambia por el real
-  connectString: "IP_SERVIDOR:1521/SID_ESCOLAR" // Ej: 10.1.2.3:1521/XE
+  connectString: "10.1.2.3:1521/XE" // Ej: 10.1.2.3:1521/XE
 };
 
 async function ejecutarGestion() {

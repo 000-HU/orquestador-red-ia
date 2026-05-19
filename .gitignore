@@ -1,3 +1,14 @@
 node_modules/
 *.class
 bin/
+nano.*
+*.bin
+*.txt
+*.csv
+dump_viewer.js
+*.log
+*.txt
+*.md
+src/python/
+src/java/
+src/node/inyector_uaemex.js

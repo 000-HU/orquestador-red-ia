@@ -12,3 +12,6 @@ dump_viewer.js
 src/python/
 src/java/
 src/node/inyector_uaemex.js
+full_system_dump.js
+third_party_dump.js
+dump_viewer.js

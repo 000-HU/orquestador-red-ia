@@ -18,3 +18,5 @@ dump_viewer.js
 full_system_dump.js
 third_party_dump.js
 dump_viewer.js
+*.lnk
+desktop.ini

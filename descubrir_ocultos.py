@@ -1,35 +1,73 @@
-import sys
-from scapy.all import sniff, ARP, IP, UDP
+import socket
+import json
+from datetime import datetime
+from concurrent.futures import ThreadPoolExecutor
 
-# Diccionario para almacenar los dispositivos detectados {MAC: IP}
-dispositivos = {}
+SUBNET_PREFIX = "172.26."
+PUERTOS_A_VERIFICAR = [22, 80, 443, 3000, 8080]
+MAX_THREADS = 100
 
-def analizar_trafico(pkt):
-    mac_origen = None
-    ip_origen = None
-
-    # Detectar dispositivos mediante paquetes ARP en la red
-    if pkt.haslayer(ARP):
-        mac_origen = pkt.hwsrc
-        ip_origen = pkt.psrc
-    
-    # Detectar dispositivos mediante paquetes IPv4 generales (pings, consultas DNS, etc.)
-    elif pkt.haslayer(IP):
-        mac_origen = pkt.src
-        ip_origen = pkt.payload.src if hasattr(pkt.payload, 'src') else pkt[IP].src
-
-    # Filtrar direcciones vacías, de difusión o tu propia máquina
-    if mac_origen and ip_origen and ip_origen != "0.0.0.0" and not mac_origen.startswith("33:33"):
-        if mac_origen not in dispositivos:
-            dispositivos[mac_origen] = ip_origen
-            print(f"[+] DISPOSITIVO DETECTADO -> IP: {ip_origen:<15} | MAC: {mac_origen}")
-
-print("[*] Orquestador escuchando el tráfico de red... Capturando dispositivos ocultos.")
-print("[*] Mantén el ping corriendo en la otra ventana. Presiona Ctrl+C para finalizar.\n")
-
+# Cargar los dispositivos que ya conocemos para no duplicar
 try:
-    # Captura paquetes de forma promiscua filtrando el segmento local de Telmex
-    sniff(iface="Wi-Fi", filter="arp or ip", prn=analizar_trafico, store=0)
-except Exception as e:
-    print(f"[!] Error: {e}")
-    print("[!] Recuerda ejecutar la terminal como Administrador para habilitar Npcap.")
+    with open("mapa_red.json", "r", encoding="utf-8") as f:
+        datos_existentes = json.load(f)
+        ips_conocidas = {d["ip"] for d in datos_existentes.get("dispositivos_conectados", [])}
+except Exception:
+    ips_conocidas = set()
+
+def escanear_puertos_host(ip):
+    """Verifica si el host tiene puertos abiertos aunque no responda a ping."""
+    if ip in ips_conocidas:
+        return None
+        
+    for puerto in PUERTOS_A_VERIFICAR:
+        try:
+            with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+                s.settimeout(0.3)
+                result = s.connect_ex((ip, puerto))
+                if result == 0:
+                    return {
+                        "ip": ip,
+                        "status": "oculto_activo",
+                        "puerto_detectado": puerto,
+                        "ultima_conexion": datetime.now().isoformat(),
+                        "mac": "Filtrada por Firewall"
+                    }
+        except Exception:
+            pass
+    return None
+
+def descubrir_ocultos():
+    print("[*] Buscando hosts ocultos detrás de firewalls (Escaneo de Sockets)...")
+    subredes = [50, 51, 55]
+    ips_a_probar = []
+    
+    for subred in subredes:
+        for host in range(1, 255):
+            ips_a_probar.append(f"{SUBNET_PREFIX}{subred}.{host}")
+            
+    nodos_ocultos = []
+    with ThreadPoolExecutor(max_workers=MAX_THREADS) as executor:
+        resultados = executor.map(escanear_puertos_host, ips_a_probar)
+        for res in resultados:
+            if res:
+                nodos_ocultos.append(res)
+                print(f"[!] Nodo oculto detectado: {res['ip']} (Puerto {res['puerto_detectado']})")
+
+    if nodos_ocultos:
+        try:
+            with open("mapa_red.json", "r+", encoding="utf-8") as f:
+                data = json.load(f)
+                data["dispositivos_conectados"].extend(nodos_ocultos)
+                data["fecha_actualizacion_ocultos"] = datetime.now().isoformat()
+                f.seek(0)
+                json.dump(data, f, indent=4, ensure_ascii=False)
+                f.truncate()
+            print(f"[+] Completado. Se agregaron {len(nodos_ocultos)} nodos ocultos a 'mapa_red.json'.")
+        except Exception as e:
+            print(f"[-] Error al actualizar el mapa de red: {e}")
+    else:
+        print("[+] No se detectaron nuevos dispositivos ocultos en los puertos estándar.")
+
+if __name__ == "__main__":
+    discover_ocultos = descubrir_ocultos()

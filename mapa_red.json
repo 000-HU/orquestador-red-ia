@@ -1,574 +1,1066 @@
 {
-    "fecha_escaneo": "2026-06-14T20:02:28.761921",
+    "fecha_escaneo": "2026-06-16T20:31:10.727387",
     "dispositivos_conectados": [
         {
             "ip": "172.26.50.1",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.049349",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.50.2",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.094443",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.50.3",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.003051",
+            "ultima_conexion": "2026-06-16T20:30:35.842050",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.50.4",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.230326",
+            "ultima_conexion": "2026-06-16T20:30:35.654969",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.50.5",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.042732",
+            "ultima_conexion": "2026-06-16T20:30:35.384941",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.50.6",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.049066",
+            "ultima_conexion": "2026-06-16T20:30:35.434276",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.8",
+            "ip": "172.26.50.7",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.129060",
+            "ultima_conexion": "2026-06-16T20:30:35.397328",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.18",
+            "ip": "172.26.50.9",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.126000",
+            "ultima_conexion": "2026-06-16T20:30:35.328811",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.19",
+            "ip": "172.26.50.10",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.196310",
+            "ultima_conexion": "2026-06-16T20:30:36.081555",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.20",
+            "ip": "172.26.50.11",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.365734",
+            "ultima_conexion": "2026-06-16T20:30:34.917733",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.21",
+            "ip": "172.26.50.12",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.463281",
+            "ultima_conexion": "2026-06-16T20:30:35.543478",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.50.22",
+            "ip": "172.26.50.15",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:04.520520",
+            "ultima_conexion": "2026-06-16T20:30:35.207055",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.16",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.218155",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.42",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:34.970317",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.43",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.358293",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.44",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.127940",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.45",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.442140",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.46",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.519224",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.47",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.248809",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.48",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.516393",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.49",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.300156",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.50",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.414785",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.51",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.337417",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.52",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.800282",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.53",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.655365",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.54",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:35.309973",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.55",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.269718",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.56",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.497276",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.57",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.499734",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.58",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.209977",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.59",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.164782",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.60",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.502447",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.61",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.530899",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.62",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.217425",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.63",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.393654",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.64",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.212090",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.65",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.147063",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.66",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.447268",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.67",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.435124",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.68",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.105161",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.69",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.040392",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.70",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.905576",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.71",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.664097",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.72",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.552801",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.73",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.926452",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.78",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.356466",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.82",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.270606",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.83",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.387658",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.86",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:36.818710",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.241",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.210153",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.242",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.447839",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.249",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.410238",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.250",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.328470",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.251",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.494668",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.252",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.012770",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.50.254",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.548924",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.1",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.709830",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.5",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.316690",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.6",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.312524",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.8",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.379261",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.10",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:44.912591",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.11",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:44.806327",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.12",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.730614",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.13",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.055248",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.14",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.380139",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.15",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.394189",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.16",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.889413",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.17",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.393626",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.18",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.480189",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.19",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.525036",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.20",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.832783",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.21",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.289370",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.22",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.576445",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.23",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.348198",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.24",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.379623",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.25",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.140294",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.26",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.390580",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.27",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.717852",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.28",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.046332",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.29",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:45.754586",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.30",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.872684",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.31",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.366917",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.32",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.316361",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.33",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.377010",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.34",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:47.015103",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.51.36",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:30:46.452455",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.51.37",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.630157",
+            "ultima_conexion": "2026-06-16T20:30:47.058783",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.51.39",
+            "ip": "172.26.51.38",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.738536",
+            "ultima_conexion": "2026-06-16T20:30:46.854477",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.51.40",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.011503",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.51.41",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.656348",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.51.42",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.059054",
+            "ultima_conexion": "2026-06-16T20:30:46.937333",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.51.43",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.634402",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.51.45",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.768923",
+            "ultima_conexion": "2026-06-16T20:30:47.314697",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.51.46",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.674799",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.51.47",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.845485",
-            "mac": "Desconocida"
-        },
-        {
-            "ip": "172.26.51.48",
-            "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.045985",
+            "ultima_conexion": "2026-06-16T20:30:46.927604",
             "mac": "Desconocida"
         },
         {
             "ip": "172.26.51.49",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.623061",
+            "ultima_conexion": "2026-06-16T20:30:46.904375",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.51.50",
+            "ip": "172.26.51.243",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:14.011380",
+            "ultima_conexion": "2026-06-16T20:30:55.137702",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.51.51",
+            "ip": "172.26.51.244",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:13.873104",
+            "ultima_conexion": "2026-06-16T20:30:54.805916",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.63",
+            "ip": "172.26.51.245",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.522580",
+            "ultima_conexion": "2026-06-16T20:30:55.270197",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.66",
+            "ip": "172.26.51.246",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.552343",
+            "ultima_conexion": "2026-06-16T20:30:54.808240",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.67",
+            "ip": "172.26.51.247",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.533918",
+            "ultima_conexion": "2026-06-16T20:30:54.848411",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.68",
+            "ip": "172.26.51.248",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.654712",
+            "ultima_conexion": "2026-06-16T20:30:55.024401",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.69",
+            "ip": "172.26.51.249",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.608351",
+            "ultima_conexion": "2026-06-16T20:30:55.695469",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.70",
+            "ip": "172.26.51.250",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.589775",
+            "ultima_conexion": "2026-06-16T20:30:55.416857",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.71",
+            "ip": "172.26.51.251",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.609279",
+            "ultima_conexion": "2026-06-16T20:30:55.707185",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.72",
+            "ip": "172.26.51.252",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.616110",
+            "ultima_conexion": "2026-06-16T20:30:55.384344",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.73",
+            "ip": "172.26.51.253",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.597063",
+            "ultima_conexion": "2026-06-16T20:30:55.689582",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.74",
+            "ip": "172.26.51.254",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.673303",
+            "ultima_conexion": "2026-06-16T20:30:56.358070",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.75",
+            "ip": "172.26.55.1",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.743369",
+            "ultima_conexion": "2026-06-16T20:30:55.879728",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.76",
+            "ip": "172.26.55.2",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.640241",
+            "ultima_conexion": "2026-06-16T20:30:55.615767",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.77",
+            "ip": "172.26.55.3",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.759307",
+            "ultima_conexion": "2026-06-16T20:30:55.797687",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.78",
+            "ip": "172.26.55.4",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.800618",
+            "ultima_conexion": "2026-06-16T20:30:55.729622",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.79",
+            "ip": "172.26.55.5",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.880850",
+            "ultima_conexion": "2026-06-16T20:30:56.296458",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.80",
+            "ip": "172.26.55.6",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.899308",
+            "ultima_conexion": "2026-06-16T20:30:56.272965",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.81",
+            "ip": "172.26.55.7",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.121591",
+            "ultima_conexion": "2026-06-16T20:30:56.294212",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.82",
+            "ip": "172.26.55.8",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.163570",
+            "ultima_conexion": "2026-06-16T20:30:55.986387",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.83",
+            "ip": "172.26.55.9",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.116273",
+            "ultima_conexion": "2026-06-16T20:30:55.920259",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.84",
+            "ip": "172.26.55.10",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.007316",
+            "ultima_conexion": "2026-06-16T20:30:56.218426",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.85",
+            "ip": "172.26.55.11",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.064420",
+            "ultima_conexion": "2026-06-16T20:30:56.283396",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.86",
+            "ip": "172.26.55.12",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.086516",
+            "ultima_conexion": "2026-06-16T20:30:56.689905",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.87",
+            "ip": "172.26.55.13",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:23.951443",
+            "ultima_conexion": "2026-06-16T20:30:55.887860",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.88",
+            "ip": "172.26.55.14",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.007424",
+            "ultima_conexion": "2026-06-16T20:30:55.914950",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.89",
+            "ip": "172.26.55.15",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.430027",
+            "ultima_conexion": "2026-06-16T20:30:56.720706",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.90",
+            "ip": "172.26.55.17",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.184294",
+            "ultima_conexion": "2026-06-16T20:30:55.836760",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.91",
+            "ip": "172.26.55.18",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.217441",
+            "ultima_conexion": "2026-06-16T20:30:56.547592",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.92",
+            "ip": "172.26.55.19",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.172020",
+            "ultima_conexion": "2026-06-16T20:30:56.559985",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.93",
+            "ip": "172.26.55.20",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.880690",
+            "ultima_conexion": "2026-06-16T20:30:55.950525",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.94",
+            "ip": "172.26.55.21",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.870687",
+            "ultima_conexion": "2026-06-16T20:30:56.256537",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.95",
+            "ip": "172.26.55.22",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.993735",
+            "ultima_conexion": "2026-06-16T20:30:56.344586",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.96",
+            "ip": "172.26.55.23",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.551565",
+            "ultima_conexion": "2026-06-16T20:30:56.294607",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.97",
+            "ip": "172.26.55.26",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.498851",
+            "ultima_conexion": "2026-06-16T20:30:56.529749",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.98",
+            "ip": "172.26.55.27",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.804323",
+            "ultima_conexion": "2026-06-16T20:30:56.858893",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.99",
+            "ip": "172.26.55.28",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.750588",
+            "ultima_conexion": "2026-06-16T20:30:56.649073",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.100",
+            "ip": "172.26.55.29",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.948752",
+            "ultima_conexion": "2026-06-16T20:30:56.536935",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.101",
+            "ip": "172.26.55.31",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.533275",
+            "ultima_conexion": "2026-06-16T20:30:56.725053",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.102",
+            "ip": "172.26.55.32",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.544458",
+            "ultima_conexion": "2026-06-16T20:30:56.630412",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.103",
+            "ip": "172.26.55.183",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.632090",
+            "ultima_conexion": "2026-06-16T20:31:06.440517",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.104",
+            "ip": "172.26.55.187",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.733893",
+            "ultima_conexion": "2026-06-16T20:31:05.003480",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.105",
+            "ip": "172.26.55.189",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.966403",
+            "ultima_conexion": "2026-06-16T20:31:04.689729",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.106",
+            "ip": "172.26.55.190",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.695542",
+            "ultima_conexion": "2026-06-16T20:31:05.692510",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.107",
+            "ip": "172.26.55.191",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.795784",
+            "ultima_conexion": "2026-06-16T20:31:05.932294",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.108",
+            "ip": "172.26.55.192",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.648715",
+            "ultima_conexion": "2026-06-16T20:31:05.663947",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.109",
+            "ip": "172.26.55.193",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.110996",
+            "ultima_conexion": "2026-06-16T20:31:05.018183",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.110",
+            "ip": "172.26.55.194",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.919305",
+            "ultima_conexion": "2026-06-16T20:31:05.873078",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.111",
+            "ip": "172.26.55.195",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.675757",
+            "ultima_conexion": "2026-06-16T20:31:05.365928",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.112",
+            "ip": "172.26.55.196",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.697212",
+            "ultima_conexion": "2026-06-16T20:31:05.005787",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.113",
+            "ip": "172.26.55.197",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.096993",
+            "ultima_conexion": "2026-06-16T20:31:05.847976",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.114",
+            "ip": "172.26.55.198",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.983106",
+            "ultima_conexion": "2026-06-16T20:31:06.227895",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.115",
+            "ip": "172.26.55.199",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.952039",
+            "ultima_conexion": "2026-06-16T20:31:05.879223",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.116",
+            "ip": "172.26.55.200",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.084245",
+            "ultima_conexion": "2026-06-16T20:31:05.987181",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.117",
+            "ip": "172.26.55.201",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.013965",
+            "ultima_conexion": "2026-06-16T20:31:07.370665",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.118",
+            "ip": "172.26.55.202",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.953580",
+            "ultima_conexion": "2026-06-16T20:31:07.396195",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.119",
+            "ip": "172.26.55.203",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.832422",
+            "ultima_conexion": "2026-06-16T20:31:06.015053",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.120",
+            "ip": "172.26.55.204",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.928034",
+            "ultima_conexion": "2026-06-16T20:31:08.610003",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.121",
+            "ip": "172.26.55.205",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.852138",
+            "ultima_conexion": "2026-06-16T20:31:07.237035",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.122",
+            "ip": "172.26.55.206",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.959560",
+            "ultima_conexion": "2026-06-16T20:31:06.883264",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.123",
+            "ip": "172.26.55.207",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.918974",
+            "ultima_conexion": "2026-06-16T20:31:06.688055",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.124",
+            "ip": "172.26.55.208",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.983215",
+            "ultima_conexion": "2026-06-16T20:31:06.943018",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.125",
+            "ip": "172.26.55.209",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.011761",
+            "ultima_conexion": "2026-06-16T20:31:07.179988",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.126",
+            "ip": "172.26.55.210",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.972555",
+            "ultima_conexion": "2026-06-16T20:31:08.648518",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.127",
+            "ip": "172.26.55.211",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.881920",
+            "ultima_conexion": "2026-06-16T20:31:07.179855",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.128",
+            "ip": "172.26.55.212",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.101567",
+            "ultima_conexion": "2026-06-16T20:31:06.030564",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.129",
+            "ip": "172.26.55.213",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.966506",
+            "ultima_conexion": "2026-06-16T20:31:06.065885",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.130",
+            "ip": "172.26.55.214",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.931402",
+            "ultima_conexion": "2026-06-16T20:31:07.156114",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.131",
+            "ip": "172.26.55.215",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:24.885190",
+            "ultima_conexion": "2026-06-16T20:31:07.572424",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.132",
+            "ip": "172.26.55.216",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.092080",
+            "ultima_conexion": "2026-06-16T20:31:08.532016",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.133",
+            "ip": "172.26.55.217",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.105465",
+            "ultima_conexion": "2026-06-16T20:31:07.464047",
             "mac": "Desconocida"
         },
         {
-            "ip": "172.26.55.134",
+            "ip": "172.26.55.218",
             "status": "activo",
-            "ultima_conexion": "2026-06-14T20:02:25.001090",
+            "ultima_conexion": "2026-06-16T20:31:08.545550",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.219",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.515600",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.220",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.569010",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.221",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.510450",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.222",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.570715",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.223",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:09.020356",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.224",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.360447",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.225",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.120204",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.226",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.037340",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.227",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.148333",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.228",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:06.958295",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.229",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.746243",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.230",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.308906",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.231",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:09.016995",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.233",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:07.360694",
+            "mac": "Desconocida"
+        },
+        {
+            "ip": "172.26.55.234",
+            "status": "activo",
+            "ultima_conexion": "2026-06-16T20:31:08.604733",
             "mac": "Desconocida"
         }
     ]

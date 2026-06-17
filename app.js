@@ -11,7 +11,7 @@ try {
     
     const alertasAnomalias = [];
 
-    mapaRed.dispositivos.forEach((dev, index) => {
+    mapaRed.dispositivos_conectados.forEach((dev, index) => {
         let servicioSimulado = "Puerto Cerrado";
         let criticidad = "Inofensivo";
         let detalleAlerta = "Comportamiento normal de la red.";

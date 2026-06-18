@@ -1,0 +1,39 @@
+{
+    "nodo_origen": {
+        "os": "Windows",
+        "os_release": "11",
+        "arquitectura": "AMD64",
+        "timestamp_utc": 1781737831.7376778
+    },
+    "metricas_red": {
+        "192.168.68.1": {
+            "80": {
+                "estado": "ABIERTO",
+                "latencia_medida_ms": 37.24,
+                "firma_cruda": "HTTP/1.1 200 OK | Connection: Keep-Alive | "
+            },
+            "443": {
+                "estado": "ERROR: timed out",
+                "latencia_medida_ms": 1013.5,
+                "firma_cruda": "N/A"
+            }
+        },
+        "192.168.68.67": {
+            "22": {
+                "estado": "ABIERTO",
+                "latencia_medida_ms": 65.99,
+                "firma_cruda": "SSH-2.0-OpenSSH_for_Windows_8.1"
+            },
+            "139": {
+                "estado": "ABIERTO",
+                "latencia_medida_ms": 0.61,
+                "firma_cruda": "N/A"
+            },
+            "445": {
+                "estado": "ABIERTO",
+                "latencia_medida_ms": 23.55,
+                "firma_cruda": "N/A"
+            }
+        }
+    }
+}

@@ -1,0 +1,960 @@
+{
+    "timestamp": 1781743055.946898,
+    "credenciales_servicios": [
+        {
+            "servicio": "AppIDSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "Appinfo",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "AppReadiness",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k AppReadiness -p"
+        },
+        {
+            "servicio": "AppXSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k wsappx -p"
+        },
+        {
+            "servicio": "AtherosSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\drivers\\AdminService.exe"
+        },
+        {
+            "servicio": "AudioEndpointBuilder",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "AxInstSV",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k AxInstSVGroup"
+        },
+        {
+            "servicio": "BDESVC",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "BITS",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "BrokerInfrastructure",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "Browser",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "camsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k osprivacy -p"
+        },
+        {
+            "servicio": "CertPropSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs"
+        },
+        {
+            "servicio": "ClickToRunSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files\\Common Files\\Microsoft Shared\\ClickToRun\\OfficeClickToRun.exe\" /service"
+        },
+        {
+            "servicio": "ClipSVC",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k wsappx -p"
+        },
+        {
+            "servicio": "CloudflareWARP",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files\\Cloudflare\\Cloudflare WARP\\warp-svc.exe\""
+        },
+        {
+            "servicio": "COMSysApp",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}"
+        },
+        {
+            "servicio": "cphs",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_3f45b1577cc3c8b7\\IntelCpHeciSvc.exe"
+        },
+        {
+            "servicio": "cplspcon",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iigd_dch.inf_amd64_3f45b1577cc3c8b7\\IntelCpHDCPSvc.exe"
+        },
+        {
+            "servicio": "CryptSvc",
+            "cuenta_ejecucion": "NT Authority\\NetworkService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkService -p"
+        },
+        {
+            "servicio": "DcomLaunch",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "dcsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "debugregsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k DevToolsGroup"
+        },
+        {
+            "servicio": "defragsvc",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k defragsvc"
+        },
+        {
+            "servicio": "DeveloperToolsService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DeveloperToolsSvc.exe"
+        },
+        {
+            "servicio": "DeviceAssociationService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "DeviceInstall",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "DevQueryBroker",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "Dhcp",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "diagnosticshub.standardcollector.service",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\DiagSvcs\\DiagnosticsHub.StandardCollector.Service.exe"
+        },
+        {
+            "servicio": "diagsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k diagnostics"
+        },
+        {
+            "servicio": "DiagTrack",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k utcsvc -p"
+        },
+        {
+            "servicio": "DisplayEnhancementService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "DmEnrollmentSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "dmwappushservice",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "DolbyDAXAPI",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dax3_swc_aposvc.inf_amd64_21e1f0221cd7f4de\\DAX3API.exe"
+        },
+        {
+            "servicio": "DoSvc",
+            "cuenta_ejecucion": "NT Authority\\NetworkService",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p"
+        },
+        {
+            "servicio": "dot3svc",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "DsmSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "DsSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "DusmSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "EapHost",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "edgeupdate",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /svc"
+        },
+        {
+            "servicio": "edgeupdatem",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Microsoft\\EdgeUpdate\\MicrosoftEdgeUpdate.exe\" /medsvc"
+        },
+        {
+            "servicio": "EFS",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\lsass.exe"
+        },
+        {
+            "servicio": "embeddedmode",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "EntAppSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k appmodel -p"
+        },
+        {
+            "servicio": "esifsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dptf_cpu.inf_amd64_4a3ae74cfa6c37d6\\esif_uf.exe\""
+        },
+        {
+            "servicio": "fhsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "FMAPOService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\FMService64.exe"
+        },
+        {
+            "servicio": "FrameServerMonitor",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k CameraMonitor"
+        },
+        {
+            "servicio": "gpsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "GraphicsPerfSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k GraphicsPerfSvcGroup"
+        },
+        {
+            "servicio": "gupdate",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /svc"
+        },
+        {
+            "servicio": "gupdatem",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Google\\Update\\GoogleUpdate.exe\" /medsvc"
+        },
+        {
+            "servicio": "hidserv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "hns",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k NetSvcs -p"
+        },
+        {
+            "servicio": "HvHost",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "icssvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "igccservice",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_a439e07c373809e2\\OneApp.IGCC.WinService.exe"
+        },
+        {
+            "servicio": "igfxCUIService2.0.0.0",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\cui_dch.inf_amd64_baf36d4852e8e257\\igfxCUIService.exe"
+        },
+        {
+            "servicio": "IKEEXT",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "ImControllerService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\Lenovo\\ImController\\Service\\Lenovo.Modern.ImController.exe"
+        },
+        {
+            "servicio": "InstallService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "Intel(R) Capability Licensing Service TCP IP Interface",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_76523213b78d9046\\lib\\SocketHeciServer.exe"
+        },
+        {
+            "servicio": "Intel(R) TPM Provisioning Service",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iclsclient.inf_amd64_fc84dfa25a6a7727\\lib\\TPMProvisioningService.exe"
+        },
+        {
+            "servicio": "IntelAudioService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\cAVS\\Intel(R) Audio Service\\IntelAudioService.exe"
+        },
+        {
+            "servicio": "iphlpsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k NetSvcs -p"
+        },
+        {
+            "servicio": "IpxlatCfgSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "jhi_service",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\dal.inf_amd64_af50fdb80983f7bc\\jhi_service.exe"
+        },
+        {
+            "servicio": "KeyIso",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\lsass.exe"
+        },
+        {
+            "servicio": "LanmanServer",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "LenovoFnAndFunctionKeys",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\lenovofnandfunctionkeys.inf_amd64_fa50a878363b0cec\\LenovoUtilityService.exe"
+        },
+        {
+            "servicio": "lfsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "LicenseManager",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalService -p"
+        },
+        {
+            "servicio": "LxpSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs"
+        },
+        {
+            "servicio": "LxssManager",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "mcafeeintegrationservice",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mcafeeintegrationextension.inf_amd64_768b84b9afa518ce\\mcafeeintegrationservice.exe -service"
+        },
+        {
+            "servicio": "McpManagementService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k McpManagementServiceGroup"
+        },
+        {
+            "servicio": "MDCoreSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26040.7-0\\MpDefenderCoreService.exe\""
+        },
+        {
+            "servicio": "MicrosoftEdgeElevationService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\145.0.3800.36\\elevation_service.exe\""
+        },
+        {
+            "servicio": "MixedRealityOpenXRSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "mpssvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNoNetworkFirewall -p"
+        },
+        {
+            "servicio": "MSiSCSI",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "msiserver",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\msiexec.exe /V"
+        },
+        {
+            "servicio": "NaturalAuthentication",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "NcaSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k NetSvcs -p"
+        },
+        {
+            "servicio": "NcbService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "Netlogon",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\lsass.exe"
+        },
+        {
+            "servicio": "Netman",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "NgcSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "nsi",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p"
+        },
+        {
+            "servicio": "nvagent",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k NetSvcs"
+        },
+        {
+            "servicio": "OfficeSvcManagerAddons",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\dllhost.exe /Processid:{2CA2E202-932F-4BA2-8771-195BB86398F5}"
+        },
+        {
+            "servicio": "PcaSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "perceptionsimulation",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\PerceptionSimulation\\PerceptionSimulationService.exe"
+        },
+        {
+            "servicio": "PhoneSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p"
+        },
+        {
+            "servicio": "PlugPlay",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "PolicyAgent",
+            "cuenta_ejecucion": "NT Authority\\NetworkService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k NetworkServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "Power",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "PrintNotify",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k print"
+        },
+        {
+            "servicio": "ProfSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "PushToInstall",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "QcomWlanSrv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\drivers\\QcomWlanSrvx64.exe"
+        },
+        {
+            "servicio": "RasAuto",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "RasMan",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs"
+        },
+        {
+            "servicio": "RemoteAccess",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs"
+        },
+        {
+            "servicio": "RetailDemo",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k rdxgroup"
+        },
+        {
+            "servicio": "RtkAudioUniversalService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\realtekservice.inf_amd64_85a48ee0cac1d3dd\\RtkAudUService64.exe\""
+        },
+        {
+            "servicio": "SamSs",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\lsass.exe"
+        },
+        {
+            "servicio": "ScDeviceEnum",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted"
+        },
+        {
+            "servicio": "Schedule",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "SCPolicySvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs"
+        },
+        {
+            "servicio": "SDRSVC",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k SDRSVC"
+        },
+        {
+            "servicio": "seclogon",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "SecurityHealthService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\SecurityHealthService.exe"
+        },
+        {
+            "servicio": "SENS",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "SensorDataService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\SensorDataService.exe"
+        },
+        {
+            "servicio": "SensorService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "SessionEnv",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "SgrmBroker",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\SgrmBroker.exe"
+        },
+        {
+            "servicio": "SharedAccess",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "ShellHWDetection",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "shpamsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "SmsRouter",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "Spooler",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\spoolsv.exe"
+        },
+        {
+            "servicio": "ssh-agent",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\OpenSSH\\ssh-agent.exe"
+        },
+        {
+            "servicio": "sshd",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\OpenSSH\\sshd.exe"
+        },
+        {
+            "servicio": "SshdBroker",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k SshBrokerGroup"
+        },
+        {
+            "servicio": "SstpSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService -p"
+        },
+        {
+            "servicio": "StateRepository",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k appmodel -p"
+        },
+        {
+            "servicio": "StiSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k imgsvc"
+        },
+        {
+            "servicio": "StorSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "svsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "swprv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k swprv"
+        },
+        {
+            "servicio": "SysMain",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "SystemEventsBroker",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p"
+        },
+        {
+            "servicio": "TabletInputService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "TapiSrv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService -p"
+        },
+        {
+            "servicio": "TermService",
+            "cuenta_ejecucion": "NT Authority\\NetworkService",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k NetworkService"
+        },
+        {
+            "servicio": "Themes",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "TieringEngineService",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\TieringEngineService.exe"
+        },
+        {
+            "servicio": "TokenBroker",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "TrkWks",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "TroubleshootingSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "TrustedInstaller",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\servicing\\TrustedInstaller.exe"
+        },
+        {
+            "servicio": "uhssvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files\\Microsoft Update Health Tools\\uhssvc.exe\""
+        },
+        {
+            "servicio": "UmRdpService",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "UserManager",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "UsoSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "VaultSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\lsass.exe"
+        },
+        {
+            "servicio": "vds",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\vds.exe"
+        },
+        {
+            "servicio": "vmcompute",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\vmcompute.exe"
+        },
+        {
+            "servicio": "vmicguestinterface",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "vmicheartbeat",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k ICService -p"
+        },
+        {
+            "servicio": "vmickvpexchange",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "vmicrdv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k ICService -p"
+        },
+        {
+            "servicio": "vmicshutdown",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "vmicvmsession",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "vmicvss",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "VSInstallerElevationService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\VSInstallerElevationService.exe\""
+        },
+        {
+            "servicio": "VSS",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\vssvc.exe"
+        },
+        {
+            "servicio": "WaaSMedicSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k wusvcs -p"
+        },
+        {
+            "servicio": "WalletService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k appmodel -p"
+        },
+        {
+            "servicio": "WarpJITSvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalServiceNetworkRestricted"
+        },
+        {
+            "servicio": "wbengine",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "\"C:\\WINDOWS\\system32\\wbengine.exe\""
+        },
+        {
+            "servicio": "WbioSrvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k WbioSvcGroup"
+        },
+        {
+            "servicio": "Wcmsvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "WdiSystemHost",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "WebManagement",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\WebManagement.exe"
+        },
+        {
+            "servicio": "wercplsupport",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "WerSvc",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\System32\\svchost.exe -k WerSvcGroup"
+        },
+        {
+            "servicio": "WiaRpc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "WinDefend",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "\"C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.26040.7-0\\MsMpEng.exe\""
+        },
+        {
+            "servicio": "Winmgmt",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "wisvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "WlanSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "wlidsvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "wlpasvc",
+            "cuenta_ejecucion": "NT Authority\\LocalService",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p"
+        },
+        {
+            "servicio": "WManSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "wmiApSrv",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\wbem\\WmiApSrv.exe"
+        },
+        {
+            "servicio": "WpcMonSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalService"
+        },
+        {
+            "servicio": "WPDBusEnum",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted"
+        },
+        {
+            "servicio": "WpnService",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "WSearch",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\SearchIndexer.exe /Embedding"
+        },
+        {
+            "servicio": "wuauserv",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "WwanSvc",
+            "cuenta_ejecucion": "localSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k LocalSystemNetworkRestricted -p"
+        },
+        {
+            "servicio": "XblAuthManager",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "XblGameSave",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "XboxGipSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        },
+        {
+            "servicio": "XboxNetApiSvc",
+            "cuenta_ejecucion": "LocalSystem",
+            "ruta_binario": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p"
+        }
+    ]
+}

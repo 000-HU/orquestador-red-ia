@@ -1,31 +1,4 @@
 {
-    "timestamp_analisis": 1781738147.178278,
-    "hosts_afectados": {
-        "192.168.68.1": [
-            {
-                "puerto": "80",
-                "servicio": "HTTP",
-                "version": "Desconocida (Hidden)",
-                "nivel_riesgo": "BAJO",
-                "cve_asociados": [],
-                "descripcion": "El servidor web del router oculta su firma de software. Aunque reduce la informacion para un atacante, la interfaz de administracion sigue expuesta en texto plano.",
-                "remediacion": "Deshabilitar la administracion web por el puerto 80 HTTP y forzar unicamente el uso de HTTPS por el puerto 443."
-            }
-        ],
-        "192.168.68.67": [
-            {
-                "puerto": "22",
-                "servicio": "SSH",
-                "version": "OpenSSH Windows 8.1",
-                "nivel_riesgo": "ALTO",
-                "cve_asociados": [
-                    "CVE-2023-38408",
-                    "CVE-2021-28041",
-                    "CVE-2020-14163"
-                ],
-                "descripcion": "La version 8.1 de OpenSSH para Windows posee fallos criticos de ejecucion remota de codigo (RCE) y de denegacion de servicio (DoS) si no cuenta con parches de mitigacion de Microsoft.",
-                "remediacion": "Actualizar Win32-OpenSSH a la ultima version estable a traves de PowerShell (winget install Microsoft.OpenJDK o via GitHub oficial de PowerShell)."
-            }
-        ]
-    }
+    "timestamp_analisis": 1782241866.8845503,
+    "hosts_afectados": {}
 }

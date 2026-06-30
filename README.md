@@ -26,12 +26,6 @@ Ruta 00: ██████████████████████ (114
 Ruta 05: ████ (21ms)  <-- OPTIMAL ROUTE
 ```
 
-
-## 🧪 Diagnóstico rápido
-Si una traza hacia `10.1.2.3` termina con `Host de destino inaccesible` o Git Bash devuelve `bash: docker: command not found`, revisa la guía de troubleshooting antes de ejecutar los contenedores locales.
-
-- Guía: [`docs/TROUBLESHOOTING.md`](docs/TROUBLESHOOTING.md)
-
 ## 🛠️ Instalación y Uso
 1. Clonar el repositorio:
    `git clone https://github.com`

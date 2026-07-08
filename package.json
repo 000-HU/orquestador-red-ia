@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "axios": "^1.13.6"
+    "axios": "^1.18.1"
   },
   "name": "orquestador-red-ia",
   "version": "1.0.0",
@@ -9,7 +9,6 @@
   "directories": {
     "doc": "docs"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

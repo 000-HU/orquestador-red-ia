@@ -1,7 +1,7 @@
 import socket
 
 # Escucha localmente en todas las interfaces en el puerto 3002 (no requiere admin)
-HOST = "0.0.0.0"
+HOST = "127.0.0.1"
 PORT = 3002
 
 def iniciar_escucha():

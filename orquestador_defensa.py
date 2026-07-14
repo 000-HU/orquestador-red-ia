@@ -9,7 +9,7 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
 
 try:
-    s.bind(('0.0.0.0', PUERTO))
+    s.bind(('127.0.0.1', PUERTO))
     s.listen(5)
     print(f"👑 [DEFENSA: ACTIVA] Monitoreando tráfico en puerto {PUERTO}...")
 except Exception as e:

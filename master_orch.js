@@ -1,17 +1,1 @@
-const http = require('http'); 
-const fs = require('fs'); 
-
-http.createServer((req, res) => { 
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost'); 
-    
-    fs.readFile('datos_vector.bin', (err, data) => { 
-        if (err) { 
-            res.writeHead(404, { 'Content-Type': 'text/plain' });
-            res.end('Error: No hay vectores'); 
-            return; 
-        } 
-        console.log('>>> Escaneando Red Escolar: ' + data.length + ' nodos detectados'); 
-        res.writeHead(200, { 'Content-Type': 'application/octet-stream' });
-        res.end(data); 
-    }); 
-}).listen(3001, '127.0.0.1', () => console.log('>>> MASTER ORCH SEGURO - ACTIVO EN LOCALHOST:3001'));
+const fs = require('fs'); console.log('🖥️  [PANEL CENTRAL] Iniciando...'); setInterval(() => { console.clear(); console.log('==================================================\n👑 PANEL DE CONTROL UNIFICADO - ABSOLUTE ZERO OS\n==================================================\n'); try { const mapa = JSON.parse(fs.readFileSync('mapa_red.json', 'utf8')); console.log('🔌 DISPOSITIVOS EN RED REAL (' + mapa.length + '):'); mapa.forEach(h => console.log('   ↳ IP: ' + h.ip + ' | MAC: ' + h.mac)); } catch (e) { console.log('🔌 Red: Esperando mapa...'); } try { const serv = JSON.parse(fs.readFileSync('telemetria_credenciales.json', 'utf8')); console.log('\n📊 TELEMETRÍA: ' + serv.length + ' servicios consolidados.'); } catch (e) { console.log('\n📊 Telemetría: Esperando datos...'); } try { const logs = fs.readFileSync('red_monitoreo.log', 'utf8').trim().split('\n').filter(Boolean).slice(-5); console.log('\n🍯 ÚLTIMOS EVENTOS DEL CEBO (HONEYPOT):'); if (logs.length > 0) { logs.forEach(l => console.log('   [ALERT] ' + l)); } else { console.log('   ↳ Monitoreando de forma segura... Sin intrusos.'); } } catch (e) { console.log('\n🍯 Cebo: Sin alertas registradas.'); } }, 3000);

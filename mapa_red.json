@@ -1,0 +1,23 @@
+{
+  "ultima_actualizacion": "2026-07-07T14:07:43.450Z",
+  "alertas_activas": [
+    {
+      "IP": "127.0.0.1",
+      "Servicio": "Puerto 22",
+      "Alerta": "ALTA",
+      "Diagnostico": "Puerto SSH (22) abierto. Firma: N/A."
+    },
+    {
+      "IP": "127.0.0.1",
+      "Servicio": "Puerto 445",
+      "Alerta": "CRÍTICO",
+      "Diagnostico": "Puerto SMB (445) expuesto. Riesgo crítico de exploits de movimiento lateral (EternalBlue)."
+    }
+  ],
+  "dispositivos_conectados": [
+    {
+      "ip": "127.0.0.1",
+      "estado": "VERIFICADO"
+    }
+  ]
+}

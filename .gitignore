@@ -9,6 +9,8 @@ dump_viewer.js
 *.log
 *.txt
 *.md
+!.github/agents/
+!.github/agents/*.agent.md
 src/python/
 src/java/
 src/node/inyector_uaemex.js

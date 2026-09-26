@@ -1,0 +1,1 @@
+import json; db = {'d84a2b': 'Router Principal', 'fc7a58': 'Skyworth (TV Box / Smart TV)'}; mapa = json.load(open('mapa_red.json')); print('[*] Cruzando inventario local con base de datos OUI...'); [print(f'[+] IP: {h["ip"]} | MAC: {h["mac"]} -> Tipo: {db.get(h["mac"].replace("-","")[:6], "Equipo Local / Host Interno")}') for h in mapa];

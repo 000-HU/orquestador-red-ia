@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Alpine Linux">
+        <title>index | Alpine Linux</title>
+
+        <link rel="stylesheet" href="/css/pure-min.css" />
+        <link rel="stylesheet" href="/css/grids-responsive-min.css" />
+        <link rel="stylesheet" href="/css/fontawesome.min.css" />
+        <link rel="stylesheet" href="/css/fa-solid.min.css" />
+        <link rel="stylesheet" href="/css/fa-brands.min.css" />
+        <link rel="stylesheet" href="/css/fa-v4-shims.min.css" />
+        <link rel="stylesheet" href="/css/styles.css" />
+        <link rel="shortcut icon" href="/alpine-logo.ico" />
+        <link rel="me" href="https://fosstodon.org/@alpinelinux" />
+        <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
+    </head>
+    <body>
+        <div id="wrapper">
+            <header class="pure-g" id="header">
+                <div class="pure-u-1 pure-u-lg-4-24">
+                    <div class="logo">
+                        <a href="/"><img src="/alpinelinux-logo.svg" class="pure-img" alt="" /></a>
+                    </div>
+                </div>
+                <input type="checkbox" id="menu-toggle-cb">
+                <label id="menu-toggle" for="menu-toggle-cb" onclick><s class="bar"></s><s class="bar"></s><s class="bar"></s></label>
+                <div class="pure-u-1 pure-u-lg-20-24 box-relative menu-wrapper">
+                    <nav class="pure-menu pure-menu-horizontal menu-local">
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item"><a href="/about/" class="pure-menu-link">About</a></li>
+                            <li class="pure-menu-item"><a href="/downloads/" class="pure-menu-link">Downloads</a></li>
+                            <li class="pure-menu-item"><a href="/releases/" class="pure-menu-link">Releases</a></li>
+                            <li class="pure-menu-item"><a href="/community/" class="pure-menu-link">Community</a></li>
+                            <li class="pure-menu-item"><a href="/sponsors/" class="pure-menu-link">Sponsors</a></li>
+							<li class="pure-menu-item"><a href="/donate/" class="pure-menu-link">Donate</a></li>
+                        </ul>
+                    </nav>
+                    <nav class="pure-menu pure-menu-horizontal menu-external">
+                        <ul class="pure-menu-list">
+                            <li class="pure-menu-item"><a href="https://docs.alpinelinux.org" class="pure-menu-link">docs</a></li>
+                            <li class="pure-menu-item"><a href="https://wiki.alpinelinux.org" class="pure-menu-link">wiki</a></li>
+                            <li class="pure-menu-item"><a href="https://gitlab.alpinelinux.org" class="pure-menu-link">git</a></li>
+                            <li class="pure-menu-item"><a href="https://gitlab.alpinelinux.org/alpine/aports/-/issues" class="pure-menu-link">issues</a></li>
+                            <li class="pure-menu-item"><a href="https://pkgs.alpinelinux.org" class="pure-menu-link">packages</a></li>
+                            <li class="pure-menu-item"><a href="https://mirrors.alpinelinux.org" class="pure-menu-link">mirrors</a></li>
+                            <li class="pure-menu-item"><a href="https://security.alpinelinux.org" class="pure-menu-link">security</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Small. Simple. Secure.</h1>
+                    <h3>Alpine Linux is a security-oriented, lightweight Linux distribution based on musl libc and busybox.</h3>
+                </div>
+            </div>
+            <div id="content" class="index">
+                <div class="pagedate">
+                    <time datetime=""></time>
+                </div>
+                <div class="pure-g">
+   
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h2>
+                <a href="/atom.xml" class="atom"><i class="fa fa-rss"></i></a>
+                Alpine News
+            </h2>
+            <ul class="home-list">
+                <li><time>2026-06-21</time>  <a href="posts/Alpine-3.22.5-3.23.5-released.html">Alpine 3.22.5, 3.23.5 released</a></li>
+                <li><time>2026-06-13</time>  <a href="posts/Alpine-3.24.1-released.html">Alpine 3.24.1 released</a></li>
+                <li><time>2026-06-09</time>  <a href="posts/Alpine-3.24.0-released.html">Alpine 3.24.0 released</a></li>
+                <li><time>2026-04-15</time>  <a href="posts/Alpine-3.20.10-3.21.7-3.22.4-3.23.4-released.html">Alpine Linux stable releases 3.20.10, 3.21.7, 3.22.4, 3.23.4</a></li>
+                <li><time>2026-01-27</time>  <a href="posts/Alpine-3.20.9-3.21.6-3.22.3-3.23.3-released.html">Alpine 3.20.9, 3.21.6, 3.22.3 and 3.23.3 released</a></li>
+                <li><time>2026-01-18</time>  <a href="posts/2026-01-18-new-sponsors-strenghten-infrastructure.html">Follow-Up: New Sponsors Strengthen Alpine Linux’s Infrastructure and CI Ecosystem</a></li>
+                <li><time>2025-12-17</time>  <a href="posts/Alpine-3.23.2-released.html">Alpine 3.23.2 released</a></li>
+                <li><time>2025-12-03</time>  <a href="posts/Alpine-3.23.0-released.html">Alpine 3.23.0 released</a></li>
+                <li><time>2025-10-08</time>  <a href="posts/Alpine-3.19.9-3.20.8-3.21.5-3.22.2-released.html">Alpine 3.19.9, 3.20.8, 3.21.5 and 3.22.2 released</a></li>
+                <li><time>2025-10-01</time>  <a href="posts/2025-10-01-usr-merge.html">Implementing &#x2F;usr merge in Alpine</a></li>
+            </ul>
+            <a class="pure-button read-more" href="/posts">Read more</a>
+        </div>
+
+    </div>
+
+    <div class="pure-u-1 pure-u-md-1-2">
+        <div class="l-box">
+            <h2>
+                <a href="https://gitlab.alpinelinux.org/alpine/aports" class="cgit">
+                    <i class="fa fa-git "></i>
+                </a>
+                Latest development
+            </h2>
+            <ul class="home-list">
+                <li><time datetime="2026-06-25T07:14:56+00:00">2026-06-25</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=242afd1bfb7be521554d017c7073dea65af79a14">testing&#x2F;ntpd-rs: disable on 32-bit</a></li>
+                <li><time datetime="2026-06-25T06:56:22+00:00">2026-06-25</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=36f081e0a33a47bf218040113d52ba99f2002cf3">testing&#x2F;oyo: upgrade to 0.1.37</a></li>
+                <li><time datetime="2026-06-25T06:53:39+00:00">2026-06-25</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=6e269460ccfafe63de3f2acc60832c83fa716535">community&#x2F;duplicity: add depends, remove sed for version</a></li>
+                <li><time datetime="2026-06-25T05:41:21+00:00">2026-06-25</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=38fe3058c6a16e2093c98f3a3b938b859fab2cfe">community&#x2F;py3-numpy: upgrade to 2.5.0</a></li>
+                <li><time datetime="2026-06-25T02:31:11+00:00">2026-06-25</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=5b122b436a826b456713dc404d81cd173afed86a">main&#x2F;pkgconf: upgrade to 2.9.91</a></li>
+                <li><time datetime="2026-06-24T20:49:45+00:00">2026-06-24</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=09106f966d19f4cf30aee9a74596d8ff321759df">community&#x2F;py3-pylint: temporarily disable tests</a></li>
+                <li><time datetime="2026-06-24T20:44:21+00:00">2026-06-24</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=86a607392f7cbdb43eace1cfbeb1b58eb562ad0b">community&#x2F;gnome-music: upgrade to 50.0</a></li>
+                <li><time datetime="2026-06-24T20:44:21+00:00">2026-06-24</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=3ef2aca412a97519e16f19dfa88c3d4e2f4c64f7">community&#x2F;gnome-control-center: upgrade to 50.3</a></li>
+                <li><time datetime="2026-06-24T20:44:21+00:00">2026-06-24</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=13dfaf50fe4321af0fe58cface4fe222196d2a37">community&#x2F;fastfetch: upgrade to 2.65.1</a></li>
+                <li><time datetime="2026-06-24T18:37:25+00:00">2026-06-24</time>  <a href="http://git.alpinelinux.org/aports/commit/?id=a1e016fb755fb57b79df60d9a55ea65d2ac00dd5">community&#x2F;librewolf: patch for time64 in libc</a></li>
+            </ul>
+            <a class="pure-button read-more" href="https://gitlab.alpinelinux.org/alpine/aports/-/commits/master">Read more</a>
+        </div>
+    </div>
+
+</div> <!-- end pure-g -->
+
+
+            </div> <!-- end content -->
+            <footer>&copy; Copyright 2026 Alpine Linux Development Team all rights reserved | <a href="/privacy-policy.html">Privacy Policy</a></footer>
+        </div> <!-- end wrapper -->
+    </body>
+</html>

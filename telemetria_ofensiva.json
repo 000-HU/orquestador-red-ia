@@ -1,0 +1,11 @@
+{
+    "entidades_seguridad": {
+        "sid": "S-1-5-21-1501594752-1866214935-264707450-1001",
+        "tokens_privilegios": []
+    },
+    "unidades_vulnerables": {
+        "servicios_sistema": [
+            "Servicio de uso compartido de red del Reproductor de Windows Media                                                                 WMPNetworkSvc                                           C:\\Program Files\\Windows Media Player\\wmpnetwk.exe                                                                                          Disabled"
+        ]
+    }
+}

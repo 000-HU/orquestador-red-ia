@@ -1,0 +1,1 @@
+import time, subprocess; print('[*] Iniciando Orquestador Core en bucle continuo...'); (lambda: [([print('\n--- [NUEVA RONDA DE AUDITORÍA] ---'), subprocess.run(['python', 'escaner.py']), subprocess.run(['python', 'ia_analizador_cve.py']), time.sleep(10)]) for _ in iter(int, 1)])()
